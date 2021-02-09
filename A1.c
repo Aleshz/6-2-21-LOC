@@ -8,8 +8,11 @@ int main()
     sum=a+b;
     sub=a-b;
     pro=a*b;
-    quo=a/b;
-    mod=a%b;
+    if(b!=0)
+    {
+       quo=a/b;
+       mod=a%b;
+    }    
     printf("Addition=%d\n",sum);
     printf("Subtraction=%d\n",sub);
     printf("Product=%d\n",pro);
