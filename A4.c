@@ -5,7 +5,7 @@ int main()
     float per;
     printf("Enter the subject of five subjects(in order from Physics, Chemistry, Biology, Maths, Computer):");
     scanf("%d%d%d%d%d",&phy,&che,&bio,&mat,&com);
-    per=(phy+che+bio+mat+com)/5;
+    per=(phy+che+bio+mat+com)/5.00;
     printf("Percentage=%.2f\n",per);
     if(per>=90)
     {
